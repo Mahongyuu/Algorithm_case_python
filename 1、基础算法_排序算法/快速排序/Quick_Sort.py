@@ -70,10 +70,12 @@ class QuickSort:
 
 
 # 测试
-arr = [10, 7, 8, 9, 1, 5]
+arr1 = [10, 7, 8, 9, 1, 5]
+arr2 = [15, 13, 74, 78, 96, 45, 35]
+arr3 = [4, 5200, 698, 374, 99, 1314, ]
 # 测试一（随机）
-print(QuickSort().quick_sort_random(arr))
+print(QuickSort().quick_sort_random(arr1))
 # 测试二（中间值）
-print(QuickSort().quick_sort_median(arr))
+print(QuickSort().quick_sort_median(arr2))
 # 测试三（原地排序）
-print(QuickSort().quick_sort_inplace(arr))
+print(QuickSort().quick_sort_inplace(arr3))
